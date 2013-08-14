@@ -34,7 +34,5 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/galaxysbmtd/blueto
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/galaxysbmtd/recovery/recovery_keys.c
 
-TARGET_OTA_ASSERT_DEVICE := galaxysb,galaxysbmtd,GT-I9000B
-
 # Import the aries-common BoardConfigCommon.mk
 include device/samsung/aries-common/BoardConfigCommon.mk
