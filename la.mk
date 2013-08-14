@@ -1,11 +1,11 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/luandroid/config/gsm.mk)
+$(call inherit-product, vendor/luandroid/config/common_gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := GalaxyS_B
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/luandroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/luandroid/config/common_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/galaxysbmtd/full_galaxysbmtd.mk)
